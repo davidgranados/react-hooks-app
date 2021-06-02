@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {CounterWithCustomHook} from "./components/01-use-state/CounterWithCustomHook";
+import {FormWithCustomHook} from "./components/02-useEffect/FormWithCustomHook";
 
 ReactDOM.render(
   <React.StrictMode>
-    <CounterWithCustomHook />
+    <FormWithCustomHook />
   </React.StrictMode>,
   document.getElementById('root')
 );

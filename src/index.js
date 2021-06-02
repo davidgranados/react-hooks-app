@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HooksApp from "./HooksApp";
+import {CounterWithCustomHook} from "./components/01-use-state/CounterWithCustomHook";
 
 ReactDOM.render(
   <React.StrictMode>
-    <HooksApp />
+    <CounterWithCustomHook />
   </React.StrictMode>,
   document.getElementById('root')
 );

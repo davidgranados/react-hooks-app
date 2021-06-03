@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Parent} from "./components/07-tarea-memo/Parent";
+import {TodoApp} from "./components/08-useReducer/TodoApp";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Parent />
+    <TodoApp />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {FormWithCustomHook} from "./components/02-useEffect/FormWithCustomHook";
+import {MultipleCustomHooks} from "./components/03-examples/MultipleCustomHooks";
 
 ReactDOM.render(
   <React.StrictMode>
-    <FormWithCustomHook />
+    <MultipleCustomHooks />
   </React.StrictMode>,
   document.getElementById('root')
 );

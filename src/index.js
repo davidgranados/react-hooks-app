@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {MemoHook} from "./components/06-memos/MemoHook";
+import {CallbackHook} from "./components/06-memos/CallbackHook";
 
 ReactDOM.render(
   <React.StrictMode>
-    <MemoHook />
+    <CallbackHook />
   </React.StrictMode>,
   document.getElementById('root')
 );

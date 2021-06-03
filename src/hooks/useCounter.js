@@ -7,12 +7,12 @@ export const useCounter = (initialState = 10) => {
     setCounter(initialState);
   };
 
-  const increment = (number = 1) => {
-    setCounter((prevCounter) => prevCounter + number);
+  const increment = () => {
+    setCounter((prevCounter) => prevCounter + 1);
   };
 
-  const decrement = (number = 1) => {
-    setCounter((prevCounter) => prevCounter - number);
+  const decrement = () => {
+    setCounter((prevCounter) => prevCounter - 1);
   };
 
   return {

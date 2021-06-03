@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {FocusScreen} from "./components/04-useRef/FocusScreen";
+import {RealExampleRef} from "./components/04-useRef/RealExampleRef";
 
 ReactDOM.render(
   <React.StrictMode>
-    <FocusScreen />
+    <RealExampleRef />
   </React.StrictMode>,
   document.getElementById('root')
 );

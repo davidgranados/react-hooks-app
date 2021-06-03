@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Layout} from "./components/05-useLayoutEffect/Layout";
+import {MemoHook} from "./components/06-memos/MemoHook";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Layout />
+    <MemoHook />
   </React.StrictMode>,
   document.getElementById('root')
 );

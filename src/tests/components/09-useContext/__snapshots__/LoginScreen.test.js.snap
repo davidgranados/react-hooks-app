@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <LoginScreen /> debe de mostrarse correctamente 1`] = `
+<div>
+  <h1>
+    LoginScreen
+  </h1>
+  <hr />
+  <form
+    onSubmit={[Function]}
+  >
+    <h1>
+      FormWithCustomHook
+    </h1>
+    <hr />
+    <div
+      className="form-group"
+    >
+      <input
+        autoComplete="off"
+        className="form-control"
+        name="name"
+        onChange={[Function]}
+        placeholder="Tu nombre"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <input
+        className="form-control"
+        name="password"
+        onChange={[Function]}
+        type="password"
+        value=""
+      />
+    </div>
+    <button
+      className="btn btn-primary"
+      type="submit"
+    >
+      Login
+    </button>
+  </form>
+</div>
+`;

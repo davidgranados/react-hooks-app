@@ -6,15 +6,15 @@ import { TodoAdd } from "./TodoAdd";
 import "./styles.css";
 
 const init = () => {
-  return JSON.parse(localStorage.getItem("todos")) || [];
+  return JSON.parse(localStorage.getItem("todoList")) || [];
 };
 
 export const TodoApp = () => {
-  const [todos, dispatch] = useReducer(todoReducer, [], init);
+  const [todoList, dispatch] = useReducer(todoReducer, [], init);
 
   useEffect(() => {
-    localStorage.setItem("todos", JSON.stringify(todos));
-  }, [todos]);
+    localStorage.setItem("todoList", JSON.stringify(todoList));
+  }, [todoList]);
 
   const onDelete = (todoId) => {
     dispatch({
@@ -39,12 +39,12 @@ export const TodoApp = () => {
 
   return (
     <div>
-      <h1>TodoApp ( {todos.length} ) </h1>
+      <h1>TodoApp ( {todoList.length} ) </h1>
       <hr />
 
       <div className="row">
         <div className="col-7">
-          <TodoList todos={todos} onDelete={onDelete} onToggle={onToggle} />
+          <TodoList todoList={todoList} onDelete={onDelete} onToggle={onToggle} />
         </div>
 
         <div className="col-5">
